@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.post {
+  max-width: 20%;
+  border: 2px solid grey;
+  padding: 22px;
+  padding-top: 0px;
+  border-radius: 1rem;
+}
+
+.post-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin-top: 3rem;
+}
+
+.single-post-wrapper {
+  max-width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.post-para {
+  overflow-wrap: break-word;
+}
