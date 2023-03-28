@@ -1,0 +1,16 @@
+{
+  "name": "my-backend",
+  "builds": [
+    {
+      "src": "backend/index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/add",
+      "dest": "backend/index.js"
+    }
+  ],
+  "framework": "node"
+}
