@@ -12,5 +12,5 @@
       "dest": "backend/index.js"
     }
   ],
-  "framework": "node"
+  "framework": "express"
 }
